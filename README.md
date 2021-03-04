@@ -51,23 +51,27 @@ Select all the default options.
 
 
 Modify your App.js with the following code 
->import Amplify from 'aws-amplify';
->import awsconfig from './aws-exports';
->import { AmplifySignOut, withAuthenticator } from '@aws-amplify/ui-react';
+```
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import { AmplifySignOut, withAuthenticator } from '@aws-amplify/ui-react';
 
->Amplify.configure(awsconfig);
+Amplify.configure(awsconfig);
 
->function App() {
->    return (
->       <div className="App">
->           <header className="App-header">
->               <AmplifySignOut />
->                <h2>My App Content</h2>
->            </header>
->        </div>
->    );
->}
+function App() {
+    return (
+        <div className="App">
+            <header className="App-header">
+                <AmplifySignOut />
+                <h2>My App Content</h2>
+            </header>
+        </div>
+    );
+}
 
->export default withAuthenticator(App);
+export default withAuthenticator(App);
+
+```
+
 
 
