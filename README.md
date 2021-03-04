@@ -158,8 +158,6 @@ function App() {
 		}
 	};
 
-
-
 	return (
 		<div className="App">
 			<header className="App-header">
@@ -178,12 +176,7 @@ function App() {
 									<div className="songTitle">{song.title}</div>
 									<div className="songOwner">{song.owner}</div>
 								</div>
-								<div>
-									<IconButton aria-label="like" onClick={() => addLike(idx)}>
-										<FavoriteIcon />
-									</IconButton>
-									{song.like}
-								</div>
+
 								<div className="songDescription">{song.description}</div>
 							</div>
 							{songPlaying === idx ? (
