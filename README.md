@@ -74,4 +74,6 @@ export default withAuthenticator(App);
 ```
 
 
+## 8. Create a GraphQL API 
+### `amplify add api`
 
