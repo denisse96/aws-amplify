@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 By Running 
 
-### `git clone git@github.com:denisse96/aws-amplify.git`
+### `git clone git@github.com:denisse96/aws-amplify-workshop.git`
 
 Check if everything is working by running
 
