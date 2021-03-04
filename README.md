@@ -270,3 +270,7 @@ Modify the file path in dynamo
 
 
 
+## 13. Delete resources
+###  `Amplify delete`
+
+
