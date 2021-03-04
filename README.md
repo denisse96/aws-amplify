@@ -158,23 +158,7 @@ function App() {
 		}
 	};
 
-	const addLike = async (idx) => {
-		try {
-			const song = songs[idx];
-			song.like = song.like + 1;
-			delete song.createdAt;
-			delete song.updatedAt;
 
-			const songData = await API.graphql(
-				graphqlOperation(updateSong, { input: song })
-			);
-			const songList = [...songs];
-			songList[idx] = songData.data.updateSong;
-			setSongs(songList);
-		} catch (error) {
-			console.log("error on adding Like to song", error);
-		}
-	};
 
 	return (
 		<div className="App">
