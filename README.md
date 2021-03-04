@@ -262,7 +262,7 @@ To create this values use ``` new Date().toISOString()``` in the console
 
 ## 12. Add storage
 ### `Amplify add storage`
-
+### `Amplify push`
 Go to s3
 Create a public directory 
 Upload a song 
