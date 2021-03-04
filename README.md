@@ -11,6 +11,8 @@ By Running
 
 Check if everything is working by running
 
+Change Directory 
+` cd aws-amplify-workshop`
 ### `npm start`
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
