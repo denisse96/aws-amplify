@@ -250,11 +250,23 @@ export default withAuthenticator(App);
 }
 
 ```
+## 11. Manually add a record to dynamoDB 
+
+Go to dynamo db
+create a record be sure to add 
+createdAt
+updatedAt 
+To create this values use ``` new Date().toISOString()``` in the console
 
 
-## 11. Add storage
+
+## 12. Add storage
 ### `Amplify add storage`
 
+Go to s3
+Create a public directory 
+Upload a song 
+Modify the file path in dynamo 
 
 
 
